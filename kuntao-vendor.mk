@@ -73,12 +73,14 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
     vendor/lenovo/kuntao/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
     vendor/lenovo/kuntao/proprietary/lib/libwfdavenhancements.so:system/lib/libwfdavenhancements.so \
+		vendor/lenovo/kuntao/proprietary/lib/libwfdclient.so:system/lib/libwfdclient.so \
     vendor/lenovo/kuntao/proprietary/lib/libwfdcodecv4l2.so:system/lib/libwfdcodecv4l2.so \
     vendor/lenovo/kuntao/proprietary/lib/libwfdcommonutils.so:system/lib/libwfdcommonutils.so \
     vendor/lenovo/kuntao/proprietary/lib/libwfdconfigutils.so:system/lib/libwfdconfigutils.so \
     vendor/lenovo/kuntao/proprietary/lib/libwfdmminterface.so:system/lib/libwfdmminterface.so \
     vendor/lenovo/kuntao/proprietary/lib/libwfdmmsink.so:system/lib/libwfdmmsink.so \
     vendor/lenovo/kuntao/proprietary/lib/libwfdmmsrc.so:system/lib/libwfdmmsrc.so \
+		vendor/lenovo/kuntao/proprietary/lib/libwfdnative.so:system/lib/libwfdnative.so \
     vendor/lenovo/kuntao/proprietary/lib/libwfdrtsp.so:system/lib/libwfdrtsp.so \
     vendor/lenovo/kuntao/proprietary/lib/libwfdservice.so:system/lib/libwfdservice.so \
     vendor/lenovo/kuntao/proprietary/lib/libwfdsm.so:system/lib/libwfdsm.so \
@@ -586,6 +588,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtime_genoff.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libulp2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libulp2.so \
+		vendor/lenovo/kuntao/proprietary/vendor/lib64/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfdhdcpcp.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwms.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwqe.so \
     vendor/lenovo/kuntao/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
